@@ -1,3 +1,15 @@
+#Input
+#file_path - The path to the text file containing URLs
+
+#Output
+#A list of URLs read from the file.
+
+#Working
+#This module contains functions for reading URLs from a text file and saving content to a text file
+#read_urls_from_file(file_path) function reads URLs from a text file specified by file_path
+#save_content_to_file(file_path, url, content) function saves content to a text file specified by file_path
+
+
 import os
 
 def read_urls_from_file(file_path):
